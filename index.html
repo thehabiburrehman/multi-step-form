@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS.css">
+  
+  <title>Frontend Mentor | Multi-step form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="parent_box">
+  <div class="box1">
+    <div class="frame1">
+      <div class="Button1">
+        <button style="border-radius:30px">1</button><h7>STEP 1</h7><h4>YOUR INFO</h4>
+      </div>
+      <div class="Button2">
+        <button style="border-radius:30px">2</button><h7>STEP 2</h7><h4>SELECT PLAN</h4>
+      </div>
+      <div class="Button3">
+        <button style="border-radius:30px">3</button><h7>STEP 3</h7><h4>ADD-ON</h4>
+      </div>
+      <div class="Button4">
+        <button style="border-radius:30px">4</button><h7>STEP 3</h7><h4>SUMMARY</h4>
+      </div>
+      
+    </div>
+  </div>
+  <div class="box2">
+    <h1>Personal Info</h1>
+    <h4 style="color:grey;">Please Provide Your Name, Email Address and Phone Number</h4>
+    <form action="none">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your Name">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Pakistan</option>
+        <option value="usa">USA</option>
+      </select>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+</body>
+</html>

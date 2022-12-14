@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.parent_box {
+    display: flex;
+}
+.box1{
+    height: 100vh;
+    width: 25%;
+    background-color:white;
+}
+.frame1{
+    position: relative;
+    height:80vh;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 20px;
+}
+.Button1{
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 80px;
+    overflow:hidden;
+    color:white;
+}
+.Button2{
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    margin-top: 200px;
+    margin-left: 80px;
+    overflow:hidden;
+    color:White;
+}
+.Button3{
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    margin-top: 300px;
+    margin-left: 80px;
+    overflow:hidden;
+    color:white
+}
+.Button4{
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    margin-top: 400px;
+    margin-left: 80px;
+    overflow:hidden;
+    color: white;
+}
+.box2{
+    height: 100vh;
+    width: 75%;
+    background-color:white;
+    display:block;
+
+} 
+input[type=text], select {
+    width:800px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }  
